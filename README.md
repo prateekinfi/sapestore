@@ -42,10 +42,10 @@ Setting up SapeStore on local system
 
 /***************************************Set up Mongo db*****************************************/
 
-20. Browse to installation directory of mongo and open cmd under bin
-21. Run the following command to setup workspace for mongodb
+18. Browse to installation directory of mongo and open cmd under bin
+19. Run the following command to setup workspace for mongodb
 	>mongod -dbpath D:\Sapient Training\sapestoremongodb(or any other desired location)
-22. Run another command prompt from the same directory, and run following commands:
+20. Run another command prompt from the same directory, and run following commands:
 	>mongo
 	>use sapestoremongodb
 	>db.createCollection("description")
@@ -55,5 +55,5 @@ Setting up SapeStore on local system
 
 /***************************************Running the application**********************************/
 
-23. In Eclipse, right click on the project select Run As->Spring Boot App
-24. Open a web browser; open localhost: http://localhost:8090/sapestore/
+21. In Eclipse, right click on the project select Run As->Spring Boot App
+22. Open a web browser; open localhost: http://localhost:8090/sapestore/
