@@ -5,6 +5,7 @@ An eCommerce book retail store web application
 Setting up SapeStore on local system 
 
 /*************************Set up required software and tools*********************************/
+
 1. Download Eclipse Mars from
 	www.eclipse.org/downloads/packages/eclipse-ide-java-ee-developers/mars2
 
@@ -53,5 +54,6 @@ Setting up SapeStore on local system
 
 
 /***************************************Running the application**********************************/
+
 21. In Eclipse, right click on the project select Run As->Spring Boot App
 22. Open a web browser; open localhost: http://localhost:8090/sapestore/
