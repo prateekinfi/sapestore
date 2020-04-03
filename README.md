@@ -17,6 +17,7 @@ Setting up SapeStore on local system
 	https://drive.google.com/open?id=1ACNCpJj-L4uK4RupVal7eCpCnAjKTHgM
 
 /*****************************************Set up Source Code***********************************/
+
 6. a)Clone the Project's Source Code from
 	link
 		OR
@@ -30,6 +31,7 @@ Setting up SapeStore on local system
 12. Right click on POM.xml and run maven clean, followed by maven install.
 
 /***************************************Set up SQL Databases************************************/
+
 13. Download the sql database dump from
 	https://drive.google.com/open?id=1f9mz2Gm6DGqK11XOysg8LMn0Du-l63qo
 14. Open MySQL Administrator. Click on Restore -> Open Backup File.
@@ -38,6 +40,7 @@ Setting up SapeStore on local system
 17. Then click on Start Restore. Then close.
 
 /***************************************Set up Mongo db*****************************************/
+
 20. Browse to installation directory of mongo and open cmd under bin
 21. Run the following command to setup workspace for mongodb
 	>mongod -dbpath D:\Sapient Training\sapestoremongodb(or any other desired location)
@@ -47,11 +50,7 @@ Setting up SapeStore on local system
 	>db.createCollection("description")
 	>db.createCollection("review")
 
-/***************************************Set up image files**************************************/
-18. Download the icon images from	//get this folder from me :)
-	link
-19. Go to sapestore.properties under Java Resources: src/main/resources
-20. Alter photo_folder_full and photo_folder_thumb according to location in step 18.
+
 
 /***************************************Running the application**********************************/
 21. In Eclipse, right click on the project select Run As->Spring Boot App
