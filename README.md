@@ -1,5 +1,5 @@
 # sapestore
-an eCommerce web application
+An eCommerce book retail store web application
 
 
 Setting up SapeStore on local system 
