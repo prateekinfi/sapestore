@@ -1,0 +1,1035 @@
+/*BOOK  DETAILS*/
+.flex-container1 {
+	display: flex;
+	flex-direction: row;
+	width: 98%;
+}
+
+.flex-container2 {
+	display: flex;
+	flex-direction: column;
+	width: 75%;
+}
+
+.flex-container3 {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-item1 {
+	width: 23%;
+	float: left;
+	clear: left;
+}
+
+.flex-item2 {
+	font-size: 22px;
+	float: left;
+	vertical-align: top;
+}
+
+.flex-item3 {
+	width: 50%;
+	padding-top: 5px;
+	height: 43px;
+	overflow: hidden;
+	font-size: 15px;
+}
+
+.flex-item4 {
+	padding-top: 5px;
+	display: block;
+	padding-bottom: 3px;
+	font-size: 13px;
+	color: red;
+}
+
+.flex-item6 {
+	padding-top: 5px;
+	font-size: 15px;
+}
+
+.flex-item7 {
+	padding-top: 17px;
+}
+
+.explain2 {
+	padding-top: 10px;
+	height: 400;
+}
+
+.explain {
+	height: 400;
+}
+
+.flex-item1 img {
+	width: 152px;
+	height: 222px;
+	display: block;
+	vertical-align: down;
+	float: left;
+}
+/* END OF BOOK  DETAILS*/
+
+/* WISHLIST */
+#wishlist    hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px dashed #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+#wishlist    .rTable {
+	display: block;
+	width: auto;
+}
+
+#wishlist     .rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+	clear: both;
+}
+
+#wishlist    .rTableHead, .rTableFoot {
+	font-weight: bold;
+}
+
+#wishlist    .rTableCell, .rTableHead {
+	border: none;
+	float: left;
+	/* height: 17px; */
+	padding: 17px;
+}
+
+#wishlist   .rTable:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#wishlist   .smalltext {
+	color: #1d1d1d;
+	font-family: "SapientSansMedium";
+	font-size: 15px;
+}
+
+#wishlist {
+	height: 400px;
+	width: 95%;
+}
+
+#wishlist    .itemhead {
+	width: 15%;
+	text-align: left;
+	font-size: 16px;
+	font-size: 14px;
+	/* font-family: "SapientCentroSlab"; */
+}
+
+#wishlist   .titlehead {
+	width: 12%;
+	text-align: left;
+	font-size: 16px;
+}
+
+#wishlist   .qtyhead {
+	width: 5%;
+	text-align: center;
+	font-size: 14px;
+}
+
+#wishlist   .availhead {
+	width: 12%;
+	text-align: center;
+	font-size: 14px;
+}
+
+#wishlist     .pricehead {
+	width: 8%;
+	text-align: center;
+	font-size: 14px;
+}
+
+#wishlist   .actionhead1 {
+	width: 5%;
+	text-align: center;
+	font-size: 14px;
+}
+
+#wishlist   .actionhead2 {
+	width: 5%;
+	text-align: center;
+	font-size: 14px;
+}
+
+#wishlist a.addCart {
+	background: #1a8ab0;
+	border: 3px solid #1880A3;
+	line-height: 29px;
+	margin-top: 3px;
+	padding: 0 8px;
+	width: 22px;
+}
+/* END OF  WISHLIST */
+
+/* CART */
+#shoppingCart    hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px dashed #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+#shoppingCart    .rTable {
+	display: block;
+	width: auto;
+	background-color: #f5f5f5;
+}
+
+#shoppingCart     .rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+	clear: both;
+}
+
+#shoppingCart    .rTableHead, .rTableFoot {
+	background-color: #DDD;
+	font-weight: bold;
+}
+
+#shoppingCart    .rTableCell {
+	border: none;
+	float: left;
+	height: 120px;
+	overflow: hidden;
+	padding: 17px;
+}
+
+#shoppingCart  .rTableHead {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	padding: 17px;
+	background-color: white;
+}
+
+#shoppingCart   .rTable:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#shoppingCart   .smalltext {
+	color: #1d1d1d;
+	font-family: "SapientSansMedium";
+	font-size: 15px;
+}
+
+#shoppingCart    .dropboxdefault {
+	font-size: 13px;
+	color: #1d1d1d;
+	font-family: "SapientCentroLight";
+	width: 160px;
+}
+
+#shoppingCart    .sumbitandcontinue {
+	font-size: 20px;
+	padding: 3px 10px;
+	color: #fff;
+	font-family: "SapientCentroSlab";
+	background-color: #21addd;
+}
+
+#shoppingCart   .nametext {
+	font-size: 15px;
+	color: grey;
+	font-family: "SapientCentroSlab";
+}
+
+#shoppingCart   .headingship {
+	color: #040707;
+	font-family: "SapientSansSlab";
+	font-size: 22px;
+}
+
+#shoppingCart    .button {
+	width: 150px;
+	padding: 10px;
+	background-color: #FF8C00;
+	box-shadow: -8px 8px 10px 3px rgba(0, 0, 0, 0.2);
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#shoppingCart  #cover {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+#shoppingCart {
+	height: 400px;
+	width: 95%;
+}
+
+#shoppingCart   #cartScreen {
+	height: 380px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+	/* display: none; */
+	background: url(login.png) no-repeat;
+	border: 5px solid #cccccc;
+	border-radius: 10px;
+	background-color: white;
+}
+
+/* #cartScreen:target,
+        #cartScreen:target+#cover {
+            display: block;
+            opacity: 2;
+        } */
+#shoppingCart     .cancel {
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 2px;
+	background: rgb(245, 245, 245);
+	color: white;
+	height: 32px;
+	width: 32px;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	background-color: #de2728;
+}
+
+#shoppingCart    .item {
+	width: 14%;
+	float: left;
+}
+
+#shoppingCart    #quantity {
+	width: 30px;
+}
+
+#shoppingCart    .itemhead {
+	margin: auto;
+	width: 25%;
+	float: left;
+	text-align: left;
+	font-size: 16px;
+	font-size: 14px;
+	font-family: "SapientCentroSlab";
+}
+
+#shoppingCart   #bookimage {
+	width: 50%;
+	height: 80px;
+	float: left;
+}
+
+#shoppingCart   #booktitle {
+	width: 40%;
+	height: 80px;
+	float: right;
+}
+
+#shoppingCart   .qtyhead {
+	width: 3%;
+	font-size: 14px;
+	font-family: "SapientCentroSlab";
+	bottom-margin: 4%;
+}
+
+#shoppingCart   .tranhead {
+	width: 20%;
+	font-size: 14px;
+	font-family: "SapientCentroSlab";
+}
+
+#shoppingCart     .pricehead {
+	width: 5%;
+	font-size: 14px;
+	font-family: "SapientCentroSlab";
+}
+
+#shoppingCart     .subhead {
+	width: 8%;
+	font-size: 14px;
+	font-family: "SapientCentroSlab";
+}
+
+#shoppingCart      .buttonhead {
+	width: 7%;
+}
+
+#shoppingCart      #buttonhead {
+	background: #de2728;
+	color: white;
+	border: 0;
+	padding: 7px;
+}
+
+#shoppingCart     #transactiontype {
+	width: 100px;
+}
+
+#shoppingCart     .heading {
+	font-size: 22px;
+	font-family: SapinetCentroSlab;
+	font-weight: medium;
+	color: #1d1d1d;
+	float: left;
+	padding: 17px;
+}
+
+#shoppingCart     #continue {
+	background: #21addd;
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	color: #ffffff;
+	float: left;
+	/* padding-left: 17px; */
+	border: 0;
+	position: absolute;
+	bottom: 4%;
+	left: 5%;
+}
+
+#shoppingCart    #checkout {
+	margin-right: 5%;
+	background: #21addd;
+	font-size: px;
+	font-family: "SapientCentroSlab";
+	color: #ffffff;
+	float: right;
+	border: 0;
+	position: absolute;
+	bottom: 4%;
+	right: 5%;
+	s
+}
+
+#shoppingCart    #endbutton {
+	padding: 17px;
+}
+
+#shoppingCart    .yourcart {
+	margin-left: 4%;
+	/* margin-top: 4%; */
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	text-align: left;
+}
+
+#shoppingCart    #quantitymessage {
+	font-family: "SapientCentroSlab";
+	font-size: 12px;
+	colour: ##bf2222;
+	padding: 7px;
+}
+
+#carthr hr {
+	margin-top: 300px;
+}
+/*END OF CART */
+
+/* MANAGE ORDERS */
+.tab {
+	overflow: hidden;
+ 	/*border: 1px solid #ccc;
+	background-color: #f1f1f1; */
+	width: 920px;
+    margin-left: -10px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+	/*     background-color: inherit;
+ */
+	float: left;
+	border: none;
+	outline: gray;
+	cursor: pointer;
+	padding: 14px 16px;
+	height: 45px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+	background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	background-color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+	display: none;
+/* 	padding: 6px 12px;
+ */	border-top: none;
+	margin-top: 0px;
+}
+
+.divTableOrder {
+	display: table;
+	width: 97%;
+	margin-top: 0px;
+	margin-right: 500px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 25px;
+	transform: translateX(-10px);
+}
+
+.divUserOrder {
+	text-align: center;
+	border-top: dashed 1px #b7bcbd;
+	/*border-bottom: dashed 1px #b7bcbd;*/
+}
+/*END OF MANAGE ORDERS */
+
+/* DELETE POPUP*/
+#deletePopup input {
+	width: 70%;
+}
+
+#deletePopup {
+	height: 400px;
+	width: 95%;
+}
+
+/* END OF DELETE POPUP*/
+
+/* HS 
+.rating {
+	border: none;
+	float: left;
+}
+
+.rating>input {
+	display: none;
+}
+
+.rating>label:before {
+	margin: 5px;
+	font-size: 1.25em;
+	font-family: FontAwesome;
+	display: inline-block;
+	content: "\f005";
+}
+
+.rating>.half:before {
+	content: "\f089";
+	position: absolute;
+}
+
+.rating>label {
+	color: #ddd;
+	float: right;
+}
+
+.rating>input:checked ~label, /* show gold star when clicked */ 
+.rating:not(:checked)>label:hover, /* hover current star */ 
+.rating:not (:checked)>label:hover ~label {	color: #21addd;}
+
+/* hover previous stars in list 
+.rating>input:checked+label:hover,/* hover current star when changing rating 
+.rating>input:checked ~ label:hover, 
+.rating>label:hover ~input:checked ~label,/* lighten current selection 
+.rating>input:checked ~label:hover ~label {color: #21addd;}
+*/
+
+
+/*REVIEW*/
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+} 
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #1fa0cd;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #21addd;  }  
+/*END OF REVIEW*/
+
+
+.postcomment {
+	background: #21addd;
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	color: #ffffff;
+	float: left;
+	/*padding-left: 17px;*/
+	border: 0;
+	/*margin-left:250px;*/
+}
+
+.cancelpost {
+	margin-right: 5%;
+	background: red;
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	color: #ffffff;
+	float: right;
+	border: 0;
+	position: absolute;
+	bottom: 4%;
+	right: 5%;
+}
+
+#cover1 {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.6);
+	z-index: 5;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+.cancel1 {
+	display: block;
+	position: absolute;
+	top: 3px;
+	right: 2px;
+	background: red;
+	color: black;
+	height: 30px;
+	width: 35px;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+/* END OF HS */
+
+/* END OF MAIN2 */
+
+/* DivTable.com */
+.divTable {
+	display: table;
+	width: 97%;
+	margin-top: 35px;
+	margin-right: 500px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 25px;
+}
+
+.divTableHeading, .divTableRow {
+	display: table-row;
+}
+
+.divTableCell, .divTableHead {
+	display: table-cell;
+	padding: 13px 10px;
+}
+
+.divTableHeading {
+	display: table-header-group;
+	font-weight: bold;
+	text-align: center;
+}
+
+.divTableBody {
+	display: table-row-group;
+	text-align: center;
+}
+
+.divTableHead {
+	border-bottom: dashed 1px #b7bcbd;
+}
+
+.divTableCell2, .divTableHead2 {
+	display: table-cell;
+	padding: 13px 10px;
+	border: dashed 1px #b7bcbd;
+}
+
+/* END OF MAIN2 */
+
+/* SEARCH */
+body {
+	font-family: Arial, Sans-Serif;
+}
+
+/* Nicely lines up the labels. */
+.search form label {
+	display: inline-block;
+	width: 100%;
+}
+
+form .line {
+	clear: both;
+}
+
+form .line.submit {
+	text-align: right;
+}
+/*  END OS SEARCH */
+
+/*CARTERRORMSG */
+#carterrormsg {
+	display: none;
+	color: white;
+	background-color: red;
+	text-align: center;
+}
+
+/*ADDRESS*/
+.rTable {
+	padding: 10px 0;
+}
+
+.rTableCell {
+	width: 365px;
+	display: block;
+	float: left;
+	padding: 8px 0;
+	position: relative;
+}
+
+.rTableCell.smalltext {
+	width: 267px;
+}
+
+.sbt {
+	font-size: 20px;
+	background: #21addd;
+	color: #fff;
+	font-size: 18px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	border: solid 1px #1d97c1;
+	padding: 5px 10px;
+	margin-right: 25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.formrelative label {
+	width: 265px;
+	display: block;
+	float: left;
+}
+
+/* .formrelative
+{
+padding: 20px 0;
+} */
+#country, #state, #city {
+	width: 200px;
+}
+
+/*END OF ADDRESS*/
+
+
+/*manage orders*/
+#defaulterslist, #revenuelist {
+	display: none;
+	background-color: #f5f5f5;
+}
+
+.rTable {
+	display: block;
+	width: 100%;
+	background-color: #f5f5f5;
+	padding-bottom: 20px;
+}
+
+.rTableHeading, .rTableBody, .rTableFoot, .rTableRow {
+	clear: both;
+}
+
+.rTableHead, .rTableFoot {
+	background-color: #DDD;
+	font-weight: bold;
+}
+
+.rTableCell, .rTableHead {
+	border: none;
+	float: left;
+	height: 20px;
+	overflow: hidden;
+	padding: 19px;
+	width: 35%;
+}
+
+.rTable:after {
+	visibility: hidden;
+	display: block;
+	font-size:;
+	content: " ";
+	clear: both;
+	height: 10;
+}
+
+.sumbitandcontinue {
+	font-size: 20px;
+	color: #ffffff;
+	font-family: "SapientCentroSlab";
+	background-color: #21addd;
+}
+
+.headingship {
+	color: #040707;
+	font-family: "SapientSansMedium";
+	font-size: 25px;
+	color: #000000;
+	padding-left:10px;
+	border-bottom:1px dashed #b7bcbd;
+}
+
+.table {
+	padding-top: 30px
+}
+
+.sub {
+	margin-left: 60px;
+}
+
+.button1 {
+	background: #f5f5f5;
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	color: #000000;
+	border: 0;
+	outline: none;
+	padding:8px;
+}
+
+.divTable.pp {
+	margin-top: 0;
+	width: 100%;
+}
+
+.button1.rev {
+	background: #e0e0e0;
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	color: #000000;
+	border: 0;
+	outline: none;
+}
+
+div#boxes {
+    padding-left: 10px;
+}
+
+.button1.dl {
+	background: #e0e0e0;
+	font-size: 22px;
+	font-family: "SapientCentroSlab";
+	color: #000000;
+	border: 0;
+	outline: none;
+}
+
+.sumbitandcontinue.sub.email {
+	position: relative;
+	width: auto;
+	cursor: pointer !important;
+	clear: both; @ include rounded(4px);
+	display: none;
+	float: right;
+	margin-right: 50px;
+	border: none;
+	margin-top: 1px;
+}
+
+#fullimage {
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+#fullpage {
+	margin-left: 12px;
+	margin-right: 12px;
+	height: 1129px;
+}
+
+.rTableHead  .rTable {
+	display: block;
+	width: auto;
+	background-color: #f5f5f5;
+}
+
+.rTableHead .rTableHead {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	/*    padding: 17px; */
+	background-color: white;
+}
+
+.renthead {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	width: 20%;
+	text-align: center;
+}
+
+.renttotalhead {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	width: 20%;
+	text-align: center;
+}
+
+.purchasetotalhead {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	width: 20%;
+	text-align: center;
+}
+
+.purchasehead {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	width: 20%;
+	text-align: center;
+}
+
+.total {
+	border: none;
+	float: left;
+	height: 17px;
+	overflow: hidden;
+	width: 20%;
+	text-align: center;
+}
+
+.rTableCell {
+	border: none;
+	float: left;
+	height: 120px;
+	overflow: hidden;
+	padding: 17px;
+}
+
+.rTableHead .renthead {
+	background-color: #DDD;
+	font-weight: bold;
+}
+
+.mainContent.report {
+	margin-top: 20px;
+	height: 1129px;
+}
+
+
+
+/*ADDRESS*/
+
+.rTable
+{
+padding: 10px 0;
+}
+
+
+.rTableCell
+{
+width: 365px;
+    display: block;
+    float: left;
+    padding: 8px 0;
+        position: relative;
+}
+
+.rTableCell.smalltext
+{
+	width: 267px;
+	    height: 20px;
+	
+}
+
+  
+.sbt
+{
+	    font-size: 20px;
+    background: #21addd;
+    color: #fff;
+    font-size: 18px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: solid 1px #1d97c1;
+    padding: 5px 10px;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+   position: relative;
+}
+
+
+.formrelative label
+{
+width: 265px;
+    display: block;
+    float: left;
+}
+
+
+ .formrelative
+{
+padding: 20px 0;
+} 
+
+#country, #state, #city
+{
+	width:200px;
+	
+}
+
+/*END OF ADDRESS*/ 

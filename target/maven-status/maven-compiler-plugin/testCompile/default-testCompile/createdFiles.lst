@@ -1,0 +1,7 @@
+com\sapient\test\InventoryTest.class
+com\sapient\test\WishlistTest.class
+com\sapient\test\CustomerOrderTest.class
+com\sapient\SapeStoreProjectApplicationTests.class
+com\sapient\test\UserTest.class
+com\sapient\test\BookTest.class
+com\sapient\test\AdminTest.class
