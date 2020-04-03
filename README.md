@@ -55,5 +55,5 @@ Setting up SapeStore on local system
 
 /***************************************Running the application**********************************/
 
-21. In Eclipse, right click on the project select Run As->Spring Boot App
-22. Open a web browser; open localhost: http://localhost:8090/sapestore/
+23. In Eclipse, right click on the project select Run As->Spring Boot App
+24. Open a web browser; open localhost: http://localhost:8090/sapestore/
